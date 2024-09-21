@@ -72,3 +72,15 @@ filter(litters_df, group == "Mod8")
 filter(litters_df, group %in% c("Con7, Mod8"))
 ```
 
+
+
+##mutate
+
+
+
+
+##arrange
+```{r}
+arrange(litters_df, pups_born_alive)
+```
+
