@@ -303,3 +303,11 @@ litters_base
     ## 47                 0            7
     ## 48                 0            5
     ## 49                 0            6
+
+## exporting data
+
+export the mlb sub-table
+
+``` r
+write_csv(mlb_df, "./data/mlb_subtable.csv")
+```
